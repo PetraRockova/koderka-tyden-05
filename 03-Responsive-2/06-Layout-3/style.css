@@ -50,7 +50,7 @@ flex: 1 1 100%;
 }
 
 .obsah{
-display: block;
+display: flex;
 }
 
 .clanek{
@@ -70,6 +70,7 @@ flex: 1 1 25%;
 }
 		
 .obsah{
+display: block;
 flex: 1 1 75%;
 }
 		
