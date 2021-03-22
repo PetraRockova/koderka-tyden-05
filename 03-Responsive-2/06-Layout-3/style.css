@@ -33,3 +33,58 @@ header > :last-child, footer > :last-child, article > :last-child, nav > :last-c
 	- 1000px
 */
 
+.reklama1,
+.reklama2{
+margin-bottom: 20px;
+}
+
+@media screen and (min-width: 640px){
+
+.box{
+display: flex;
+flex-wrap: wrap;
+}
+
+.menu{
+flex: 1 1 100%
+}
+
+.obsah{
+display: block;
+}
+
+.clanek{
+flex: 1 1 60%;
+}
+
+.reklama{
+flex: 1 1 40%;
+}
+}
+
+
+@media screen and (min-width: 1000px){
+
+.menu{
+flex: 1 1 25%;
+}
+		
+.obsah{
+flex: 1 1 75%;
+}
+		
+.reklama{
+display: flex;
+justify-content: space-between;
+}
+
+
+.reklama1,
+.reklama2{
+flex: 0 0 calc((100% - 20px) / 2);
+}
+
+.reklama1{
+margin: 0;
+}
+}

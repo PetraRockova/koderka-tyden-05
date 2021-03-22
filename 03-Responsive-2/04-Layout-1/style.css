@@ -23,3 +23,21 @@ body {
 	- 1000px
 */
 
+@media screen and (min-width: 640px){
+.sloupce{
+display: flex;
+flex-wrap: wrap;
+}
+
+.prvni,
+.druhy{
+flex:1 0 50%;
+}
+}
+
+@media screen and (min-width: 1000px){
+
+.blok{
+flex: 1 1 calc(100% / 3)
+}
+}
